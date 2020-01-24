@@ -1,6 +1,6 @@
 // Import your web-ready dependencies
 import { h, render } from "/web_modules/preact.js";
-import css from "/web_modules/csz.js";
+import css from "https://unpkg.com/csz";
 
 // Create your main app component
 function SomePreactComponent() {
