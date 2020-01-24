@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "snowpack",
+    "prepare": "snowpack",
     "start": "concurrently npm:serve npm:tsc",
     "serve": "servor --reload --browse",
     "tsc": "tsc --watch",
