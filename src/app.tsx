@@ -7,4 +7,4 @@ function SomePreactComponent() {
 }
 
 // Inject your application into the an element with the id `app`.
-render(<SomePreactComponent />, document.getElementById("app"));
+render(<SomePreactComponent />, document.getElementById("app")!);
