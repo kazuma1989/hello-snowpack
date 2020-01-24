@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "servor --reload --browse",
+    "build": "snowpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
