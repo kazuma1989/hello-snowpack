@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^3.0.1",
+    "preact": "^10.2.1"
+  },
+  "devDependencies": {
+    "servor": "^3.1.0",
+    "snowpack": "^1.1.0"
+  }
 }
