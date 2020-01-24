@@ -21,5 +21,11 @@
     "servor": "^3.1.0",
     "snowpack": "^1.1.0",
     "typescript": "^3.7.5"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "preact",
+      "preact/hooks"
+    ]
   }
 }
