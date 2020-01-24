@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "servor --reload --browse",
-    "build": "snowpack",
+    "install": "snowpack",
+    "start": "concurrently npm:serve npm:tsc",
+    "serve": "servor --reload --browse",
+    "tsc": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "htm": "^3.0.1",
     "preact": "^10.2.1"
   },
   "devDependencies": {
+    "concurrently": "^5.0.2",
     "servor": "^3.1.0",
     "snowpack": "^1.1.0",
     "typescript": "^3.7.5"
